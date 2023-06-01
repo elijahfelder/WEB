@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*controls everything in the container*/
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(60, 172, 247);
+	transition: 0.5s;
+}
+
+/*controls the main heading placement*/
+header {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+/*controls the main heading (Sports) appearance*/
+header .logo {
+	position: relative;
+	font-size: 30px;
+	text-decoration: none;
+	color: rgb(60, 172, 247);
+	font-weight: 600;
+}
+
+/*controls the navigation*/
+header ul {
+	position: relative;
+	display: flex;
+}
+
+header ul li {
+	list-style-type: none;
+}
+
+/*m-l was at 40px*/
+header ul li a {
+	display: inline-block;
+	color: rgb(60, 172, 247);
+	font-weight: 400;
+	margin-left: 40px; 
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*controls text and image*/
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .textBox {
+	position: relative;
+	max-width: 600px;
+	padding-left: 50px;
+}
+
+.content .textBox h2 {
+	color: #fff;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-left: 50px;
+}
+
+.content .textBox h2 span {
+	font-size: 2em;
+}
+
+/*controls link below the h2*/
+.content .textBox a {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 50px;
+	padding: 8px 20px;
+	background: #fff;
+	color: #111;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.content .imgBox {
+	width: 600px;
+	display: flex;
+	padding-right: 50px;
+	justify-content: flex-end;
+}
+
+.imgBox img {
+	width: 600px;
+}
+
+/*.home li{*/
+	/*border-right: 1px solid green;
+	width: 150px;
+}*/
+
+div .tech {
+	text-decoration: none;
+}
+
+
+
+
+
+
